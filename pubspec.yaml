@@ -1,0 +1,47 @@
+name: onmyplate
+description: "Show what's on your plate — an interactive dinner plate activity visualizer."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Backend
+  supabase_flutter: ^2.8.4
+
+  # Routing
+  go_router: ^14.6.3
+
+  # State management
+  provider: ^6.1.2
+
+  # Environment variables
+  flutter_dotenv: ^5.2.1
+
+  # Unique IDs
+  uuid: ^4.5.1
+
+  # Animations
+  flutter_animate: ^4.5.2
+
+  # Fonts
+  google_fonts: ^6.2.1
+
+  # Local storage
+  shared_preferences: ^2.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
